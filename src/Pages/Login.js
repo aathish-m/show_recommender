@@ -67,7 +67,7 @@ function Login() {
             />
           </div>
           <br/>
-          <button className="loginbutton" onClick={loginclick}>LOGIN</button>
+          <button className="loginbutton" onClick={loginclick}>LOGIN AND GET RECOMMENDATION</button>
 
           <div className="loginbottom">
             <p>Don't have an account</p>

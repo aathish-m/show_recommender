@@ -30,7 +30,6 @@
     padding: 20px;
     border-radius: 20px;
     background: #fff;
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +40,7 @@
     display: block; 
     margin: auto;
     height: 50px;
-    width:150px;
+    width:300px;
     border: 1px solid #dfdfdf;
     color: #dfdfdf;
     cursor: pointer;

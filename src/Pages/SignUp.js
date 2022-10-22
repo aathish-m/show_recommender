@@ -93,7 +93,7 @@ function SignUp() {
             />
           </div>
           <button type="submit" onClick={registerclick} className="loginbutton">
-            REGISTER
+            REGISTER AND GET RECOMMENDATION
           </button>
           <div className="loginbottom signupbtm">
             <p>Already have an account</p>
