@@ -1,0 +1,21 @@
+ .historycontainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+     align-items: center; 
+    justify-content: center; 
+   }  
+
+  .clearhistorycontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 0px 5px;
+    width: 10%;
+  }

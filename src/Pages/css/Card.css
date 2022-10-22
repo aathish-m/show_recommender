@@ -1,0 +1,20 @@
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.genre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+   color: black; 
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
