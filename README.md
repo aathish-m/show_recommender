@@ -6,13 +6,13 @@
  <p align="center">
     <strong>TV SHOW RECOMMENDATION</strong>
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>LIVE LINK »</strong></a>
+    <a href="show-recommender-51p36id1j-aathish-m.vercel.app"><strong>LIVE LINK »</strong></a>
     <p align="center">RECOMMENDS THE USER WITH AN RANDOM TV SHOW</p>
     <br />  
   </p>
   
 ## Description :
-For the Front-End services, I've used React JS. And, Node JS,Express JS along with Mongo DB for back-End services. Each user get responded with an random TV Show Recommendation, each time. For further referrals, they can look over thier Recommended History. It's also possible to clear their Recommendation History.
+For the Front-End services, I've used React JS. Node JS,Express JS along with Mongo DB for back-end services. Each user get responded with an random TV Show Recommendation, every time. For further referrals, they can look over thier Recommended History. It's also possible to clear their Recommendation History.
 
 - Live Link : https://show-recommender.vercel.app/
 - Api Documentation Link : https://documenter.getpostman.com/view/20242807/2s84DuMfMq
