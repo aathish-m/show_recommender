@@ -25,7 +25,7 @@ function HistoryPage() {
           redirect: 'follow'
         };
 
-        fetch(`http://localhost:5000/user/get/recommendation?email=${email}`, requestOptions)
+        fetch(`https://tv-show-recommendation.herokuapp.com/user/get/recommendation?email=${email}`, requestOptions)
           .then(response => response.json())
           .then(result => {
             setHistory(result.recommendations)
@@ -73,7 +73,7 @@ function HistoryPage() {
       redirect: 'follow'
     };
 
-    fetch(`http://localhost:5000/user/detele/recommendation?id=${id}`, requestOptions)
+    fetch(`https://tv-show-recommendation.herokuapp.com/user/detele/recommendation?id=${id}`, requestOptions)
       .then(response => response.json())
       .then(result => setHistory(result.user.recommendations) && setShowdetails(null))
       .catch(error => console.log('error', error));

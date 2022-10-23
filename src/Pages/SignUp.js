@@ -24,7 +24,7 @@ function SignUp() {
             redirect: "follow",
           };
 
-          const details = await fetch("http://localhost:5000/user/create", requestOptions)
+          const details = await fetch("https://tv-show-recommendation.herokuapp.com/user/create", requestOptions)
           const json = await details.json()
           console.log(json);
           history.push(`/display/email=${json.newUser.email}`);

@@ -5,7 +5,7 @@ import {Link, useHistory} from 'react-router-dom';
 function Login() {
   const history = useHistory()
   async function loginclick(e) {
-      if(email != "" || password != ""){
+      if(email !== "" || password !== ""){
         try {
           let myHeaders = new Headers();
           myHeaders.append("Content-Type", "application/json");
@@ -21,7 +21,7 @@ function Login() {
             redirect: "follow",
           };
 
-          const details = await fetch("http://localhost:5000/user/get", requestOptions)
+          const details = await fetch("https://tv-show-recommendation.herokuapp.com/user/get", requestOptions)
           const json = await details.json()
           console.log(json);
           history.push(`/display/email=${json.user.email}`);

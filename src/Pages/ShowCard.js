@@ -22,7 +22,7 @@ export default function Showcard() {
           redirect: 'follow'
         };
 
-        await fetch(`http://localhost:5000/user/get/recommendation?email=${email}`, requestOptions)
+        await fetch(`https://tv-show-recommendation.herokuapp.com/user/get/recommendation?email=${email}`, requestOptions)
           .then(response => response.json())
           .then(result => setUserdetails(result))
           .catch(error => console.log('error', error));
@@ -61,7 +61,7 @@ export default function Showcard() {
       redirect: 'follow'
     };
 
-    await fetch(`http://localhost:5000/user/add/recommendation?id=${userdetails._id}`, requestOptions)
+    await fetch(`https://tv-show-recommendation.herokuapp.com/user/add/recommendation?id=${userdetails._id}`, requestOptions)
       .then(response => response.json())
       .then(result => setUserdetails(result))
       .catch(error => console.log('error', error));
