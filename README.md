@@ -67,3 +67,16 @@ For this platform to be built , I've used MERN Stack.
 >>```sh
 >>https://drive.google.com/drive/folders/1wNSeJUkS1WcFAeWjuQAf0IgZzu09RkPB?usp=sharing
 >>```
+
+# SnapShots : 
+![HOME](https://user-images.githubusercontent.com/86217637/197388858-603595be-e3cb-42be-80f1-2d6e683e9925.png)
+<br /><br />
+![LOGIN](https://user-images.githubusercontent.com/86217637/197388864-27e8453d-ff16-4d34-88b5-a8b9916233ae.png)
+<br /><br />
+![SIGNUP](https://user-images.githubusercontent.com/86217637/197388869-42398bb3-dc25-4eba-96f1-1db2ca9e87ad.png)
+<br /><br />
+![RECOMMENDATION](https://user-images.githubusercontent.com/86217637/197388873-86576856-5406-4872-b713-31c05c83c724.png)
+<br /><br />
+![HISTORY1](https://user-images.githubusercontent.com/86217637/197388879-6ffee4da-ef8a-42e2-9194-bec346eabfd5.png)
+<br /><br />
+![HISTORY2](https://user-images.githubusercontent.com/86217637/197388880-502023ec-1123-4e88-86e8-7379192fa73d.png)
