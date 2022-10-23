@@ -35,6 +35,10 @@ For this platform to be built , I've used MERN Stack.
 - Node JS
 - Express JS
 - Mongo DB
+- >Material UI
+  >> Cards and Icons
+  
+ 
 
 
 ## Functionalities and Features :
