@@ -24,20 +24,42 @@ function SignUp() {
             redirect: "follow",
           };
 
-          const details = await fetch("https://tv-show-recommendation.herokuapp.com/user/create", requestOptions)
-          const json = await details.json()
-          console.log(json);
-          history.push(`/display/email=${json.newUser.email}`);
-        } catch (e) {
-          console.log(e);
-        }
-      } else {
-        alert("Password doesn't match");
-      }
-    } else {
-      alert("Enter credentials");
-    }
+  //         const details = await fetch("https://tv-show-recommendation.herokuapp.com/user/create", requestOptions)
+  //         const json = await details.json()
+  //         console.log(json);
+  //         history.push(`/display/email=${json.newUser.email}`);
+  //       } catch (e) {
+  //         console.log(e);
+  //       }
+  //     } else {
+  //       alert("Password doesn't match");
+  //     }
+  //   } else {
+  //     alert("Enter credentials");
+  //   }
+  // }
+  const details = await fetch("https://tv-show-recommendation.herokuapp.com/user/create", requestOptions)
+  const json = await details.json()
+  if(details.status !== 201){
+    alert(json.message);
   }
+  else{
+    history.push(`/display/email=${json.newUser.email}`); 
+  }
+} catch (e) {
+  alert(e);
+  setName("");
+  setEmail("");
+  setCpassword("");
+  setPassword("")
+}
+} else {
+alert("Password doesn't match");
+}
+} else {
+alert("Enter credentials");
+}
+}
   userdetails && console.log(userdetails);
 
   const [name, setName] = useState("");

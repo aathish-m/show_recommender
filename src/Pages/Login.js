@@ -23,8 +23,14 @@ function Login() {
 
           const details = await fetch("https://tv-show-recommendation.herokuapp.com/user/get", requestOptions)
           const json = await details.json()
-          console.log(json);
-          history.push(`/display/email=${json.user.email}`);
+          
+          if(details.status !== 200){
+            alert(json.message);
+          }
+          else{
+            history.push(`/display/email=${json.user.email}`);
+          }
+
         } catch (e) {
           console.log(e);
         }
