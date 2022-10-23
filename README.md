@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# KYRO SAAS TASK
 
-## Available Scripts
+</br>
+ <p align="center">
+    <strong>TV SHOW RECOMMENDATION</strong>
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>LIVE LINK »</strong></a>
+    <p align="center">RECOMMENDS THE USER WITH AN RANDOM TV SHOW</p>
+    <br />  
+  </p>
+  
+## Description :
+For the Front-End services, I've used React JS. And, Node JS,Express JS along with Mongo DB for back-End services. Each user get responded with an random TV Show Recommendation, each time. For further referrals, they can look over thier Recommended History. It's also possible to clear their Recommendation History.
 
-In the project directory, you can run:
+- Live Link : https://show-recommender.vercel.app/
+- Api Documentation Link : https://documenter.getpostman.com/view/20242807/2s84DuMfMq
+- BackEnd Drive Link : https://drive.google.com/drive/folders/1wNSeJUkS1WcFAeWjuQAf0IgZzu09RkPB?usp=sharing
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## SCREENS :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Home Screen
+- Login Screen
+- Sign Up Screen
+- Recommendation Screen
+- Recommended History Screen
 
-### `npm test`
+## Built With :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For this platform to be built , I've used MERN Stack.
 
-### `npm run build`
+- React JS
+- Node JS
+- Express JS
+- Mongo DB
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Functionalities and Features :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Provides the service for the user to Login and Sign Up.
+- Provides the service for recommending the user with random TV Shows.
+- Provides the service for displaying thier History of Recommendations.
+- Provides the service for Clearing the History.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to run :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> FrontEnd 
+>> 1.Click the above provided Live URL or Clone the Repo using 
+>>```sh
+>>git clone https://github.com/aathish-m/show_recommender
+>>```
+>>2.Install npm packages
+>>```sh
+>>npm install
+>>```
+>>3.Run the code
+>>```sh
+>>npm run
+>>```
+<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> BackEnd
+>> Checkout the BackEnd code by using the below drive link
+>>```sh
+>>https://drive.google.com/drive/folders/1wNSeJUkS1WcFAeWjuQAf0IgZzu09RkPB?usp=sharing
+>>```
