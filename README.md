@@ -6,7 +6,7 @@
  <p align="center">
     <strong>TV SHOW RECOMMENDATION</strong>
     <br />
-    <a href="show-recommender-51p36id1j-aathish-m.vercel.app"><strong>LIVE LINK »</strong></a>
+    <a href="https://show-recommender.vercel.app/"><strong>LIVE LINK »</strong></a>
     <p align="center">RECOMMENDS THE USER WITH AN RANDOM TV SHOW</p>
     <br />  
   </p>
